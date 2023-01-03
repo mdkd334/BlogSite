@@ -62,10 +62,92 @@
     <div class="Post">
         <article>
             <header>
-              <button type="button" class="btn btn-lg bg-gradient btn-light" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+              <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
                 <p>created by <span>Mahmoud</span> on <span>17/11/2022</span> </p>
             </header>
             <section>
+              <div id="carouselExampleInterval" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="liverpool-vs-chelsea-2019-uefa-super-cup-promo-materials-football-match-final.jpg" class="d-md-block w-100" alt="liverpool vs chelsea">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="desktop-wallpaper-manchester-city-fc-vs-atletico-madrid-2022-uefa-champions-league-quarterfinals-3d-logos-blue-red-background-champions-league-football-match-2022-champions-league-manches.jpg" class="d-md-block w-100" alt="Manchester city fc vs Atlletico madrid">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="HD-wallpaper-fc-barcelona-vs-paris-saint-germain-uefa-champions-league-eighth-finals-3d-logos-blue-burgundy-background-champions-league-football-match-fc-barcelona-paris-saint-germain-barcelona-vs-psg.jpg" class="d-md-block w-100" alt="Barcelona vs Paris saint germain">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <form>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingFirst-Name" placeholder="First Name">
+                  <label for="floatingFirst-Name">First Name</label>
+                  <div id="First name" class="form-text">We'll never share your First name with anyone else.</div>
+                </div>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingLast-Name" placeholder="Last Name">
+                  <label for="floatingLast-Name">Last Name</label>
+                  <div id="Last name" class="form-text">We'll never share your Last name with anyone else.</div>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                  <div class="col-auto">
+                    <span id="passwordHelpInline" class="form-text">
+                      Must be 8-20 characters long.
+                    </span>
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Agree to the terms and services</label>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Notify me of other Marketing Competitions and News (optional)</label>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">subscribe for El3aab's newsletter</label>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Submit
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="Email submit">Save submitted email and Password</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Do u want to save the submitted email and password to the database for easy access..
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
@@ -141,10 +223,27 @@
                 </video>
             </section>
             
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+            
         </article>
     </div>
     <!--end Article-->
-
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
     <!--start footer-->
 <footer>
     All Rights Reserved &reg;  Copyright 2022 &copy;
