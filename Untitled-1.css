@@ -6,8 +6,14 @@
 }
 body {
     font-family: arial, tahoma;
-    background-color: #d7d7d7;
+    
     font-size: medium;
+}
+.background-image {
+    background-image: url(background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350vh;
 }
 /*end global*/
 /* start header*/
@@ -20,17 +26,22 @@ body {
 
 }
 .card-1 {
-    background-color:rgb(244, 244, 244);
+    background-color:rgba(244, 244, 244, 0.123);
     width: 100%;
     border-radius: 10px;
     
     } 
 
 .card {
-background-color:rgb(244, 244, 244);
+background-color:rgba(244, 244, 244, 0);
 width: 110%;
 
 } 
+.card-2 {
+    background-color:rgb(244, 244, 244);
+    width: 110%;
+    
+    } 
 
 .btn-orange {
     background-color: #f50;
