@@ -17,7 +17,21 @@ body {
     padding: 20px;
     text-align: center;
 
+
 }
+.card-1 {
+    background-color:rgb(244, 244, 244);
+    width: 100%;
+    border-radius: 10px;
+    
+    } 
+
+.card {
+background-color:rgb(244, 244, 244);
+width: 110%;
+
+} 
+
 .btn-orange {
     background-color: #f50;
 }
@@ -58,48 +72,77 @@ main p {
 
 
 /* start articles */
-article {
+.article1 {
     
-    background-color: #ccf7fc;
-    border: 1px solid #ccc;
+    background-color: beige;
+    border: 2px solid #ccc;
     margin: 20px;
+    width: 140%;
+    border-radius: 10px;
 }
 
-article header{
-    background-color:rgb(41, 41, 68);
+.article1 header{
+    background-color:#062f4f;
     padding: 10px;
     color: #ccc;
+    border-radius: 10px;
    
 }
-
+.side-article {
+    
+    background-color: beige;
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+.side-article header{
+    background-color:#b82601;
+    padding: 10px;
+    color: #ccc;
+    border-radius: 10px;
+   
+}
+.article2 {
+    
+    background-color: beige;
+    border: 2px solid #ccc;
+    margin: 20px;
+    width: 140%;
+    border-radius: 10px;
+}
+.article2 header{
+    background-color:#813772;
+    padding: 10px;
+    color: #ccc;
+    border-radius: 10px;
+}
+.v-article {
+    
+    background-color: beige;
+    border: 2px solid #ccc;
+    margin: 15px;
+    width: 90%;
+    border-radius: 10px;
+}
+.v-article header{
+    background-color:#813772;
+    padding: 10px;
+    color: #ccc;
+    border-radius: 10px;
+}
 article section {
     padding: 10px;
 }
 
 video{
-    padding: 5px;
-    background-color: darkgray;
-    border: 1px solid #ccc;
-    margin: 5px;
+    padding: 1px;
+    background-color: beige;
+    margin: 1px;
 }
 
-aside{
-    width: 50%;
-    max-width: 1000px;
-    min-width: 150px;
-    float: right;
-    background-color:rgb(111, 111, 165);
-    border: #777 solid 1px;
-    color:white;
-    padding: 10px;
 
-}
-aside header {
 
-background-color:rgb(41, 41, 68);
-    padding: 10px;
-    color: #ccc;
-}
 
 /* end articles*/
 
