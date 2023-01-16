@@ -13,7 +13,7 @@ body {
     background-image: url(background-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 330vh;
+    height: 355vh;
 }
 /*end global*/
 /* start header*/
@@ -39,7 +39,7 @@ width: 110%;
 } 
 .card-2 {
     background-color:rgb(244, 244, 244);
-    width: 110%;
+    width: 100%;
     
     } 
 
@@ -90,6 +90,7 @@ main p {
     margin: 20px;
     width: 140%;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .article1 header{
@@ -99,6 +100,13 @@ main p {
     border-radius: 10px;
    
 }
+.form-floating {
+    padding: 10px;
+}
+section {
+    padding: 10px;
+}
+
 .side-article {
     
     background-color: beige;
@@ -106,6 +114,7 @@ main p {
     margin: 20px;
     width: 90%;
     border-radius: 10px;
+    padding: 10px;
 }
 .side-article header{
     background-color:#b82601;
@@ -118,29 +127,32 @@ main p {
     
     background-color: beige;
     border: 2px solid #ccc;
-    margin: 20px;
-    width: 140%;
+    margin: 10px;
+    width: 110%;
     border-radius: 10px;
+    padding: 10px;
 }
 .article2 header{
     background-color:#813772;
-    padding: 10px;
+    padding: 20px;
     color: #ccc;
     border-radius: 10px;
 }
 .v-article {
     
     background-color: beige;
-    border: 2px solid #ccc;
-    margin: 15px;
+    border: 1px solid #ccc;
+    margin: 10px;
     width: 90%;
     border-radius: 10px;
+    padding: 5px;
 }
 .v-article header{
     background-color:#813772;
-    padding: 10px;
+    padding: 5px;
     color: #ccc;
     border-radius: 10px;
+    margin: 5px;
 }
 article section {
     padding: 10px;
